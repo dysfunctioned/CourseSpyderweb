@@ -1,5 +1,6 @@
 """
-TO DO: Add Docstring
+    This module includes data classes that are used by other classes in the project.
+    This file is Copyright(c) 2023 Mark Henein, Ege Sayin, Kelly Wong, and Joshiah Joseph
 """
 from dataclasses import dataclass
 
