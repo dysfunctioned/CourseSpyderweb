@@ -14,7 +14,7 @@ import bs4.element
 import scrapy
 from bs4 import BeautifulSoup as Soupy
 
-from CoreClasses import Course
+from core_classes import Course
 
 CSV_SPLIT_CHAR = "|"
 LIST_SPLIT_CHAR = ","
