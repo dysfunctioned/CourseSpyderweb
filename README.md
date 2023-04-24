@@ -35,7 +35,7 @@ course is a prerequisite, exclusion, corequisite or recommended. These asymmetri
 need for a directed graph type, as connections between courses must be directional, and trees would be unsuitable
 since courses must be able to connect with other courses at different depths.
 
-CoreClass.py contains three main classes that hold all the associated information for each course from the generated 
+core_classes.py contains three main classes that hold all the associated information for each course from the generated 
 dataset. The Course class contains an instance attribute of either str, list[str] or int type to represent each
 column from the dataset, while the Record class is responsible for documenting a student’s academic record for a
 course resembling the style of UofT’s academic transcripts. Lastly, the Student class allows users to create a profile
@@ -59,14 +59,14 @@ This project makes use of various different Python libraries and modules to coll
 program uses Scrapy, a web scraping framework, to extract course data (course codes, prerequisites, exclusions,
 corequisites, minimum grade requirements) from the Arts and Sciences’ academic calendar, and sort out the information 
 we have collected to create course objects. To obtain the dataset, the Spider class from Scrapy library is used in 
-CourseScrapper.py to compose the CalendarSpider class, which extracts data from the academic calendar by navigating 
+course_scrapper.py to compose the CalendarSpider class, which extracts data from the academic calendar by navigating 
 specific links on its webpages. Then, this information is filtered by course code to contain only CSC, MAT and STA 
 courses, and written to a new csv file for processing.
 
 The Python library NetworkX is incorporated into this program to generate a visual model of the directed graph, and
 illustrate the connections between the course objects as represented by edges and vertices respectively. NetworkX
 is an appropriate library for visualizing this graph because it provides a large amount of customization, namely,
-the ability to create directed graphs. Visualizegraph from MainFunctions.py employs the DiGraph class from the
+the ability to create directed graphs. visualize_graph from main.py employs the DiGraph class from the
 NetworkX library to initialize a directed graph, and make related changes to the graph using the methods involving 
 nodes, edges, and attributes included in the class. An important characteristic of the graph’s visualization is
 the colour of the edges connecting the courses, which is a customizable feature enabled by NetworkX. Green edges
@@ -81,7 +81,7 @@ Visualizegraph function.
 1. (Optional) In the coursescrapper module, uncomment the codes in main body to start scrapping process. It
     would scrap the data from the webpage and create a dataset named ”CourseData.csv”. However, we already
     included that dataset in the project, so TA doesn’t have to uncomment those lines to scrap.
-2. The main block of main.py includes the function call runexample(), which builds a directed graph using
+2. The main block of main.py includes the function call run_example(), which builds a directed graph using
     NetworkX and displays the graph on a Matplotlib window. In the given example, a graph is built using a
     student object with courses ’CSC110Y1’ and ’CSC111H1’ completed. The green arrows represent fulfilled
     prerequisites and the red arrows represent unfulfilled prerequisites.
@@ -92,7 +92,7 @@ Visualizegraph function.
     - addcourseinfo: adds a Record object to the student’s academic record. Raises a ValueError if the input course code
    is not in the dataset.
 
-    Then, call runexample() using this student object.
+    Then, call run_example() using this student object.
 
 4. In addition, we have provided a few helper functions which you may find useful:
     - checkeligibilityprogramandcheckeligibilityfocus: checks if the student is eligible to complete a
