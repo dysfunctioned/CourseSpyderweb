@@ -93,7 +93,7 @@ Visualizegraph function.
     Then, call run_example() using this student object.
 
 4. In addition, we have provided a few helper functions which you may find useful:
-    - check_eligibility_programand and check_eligibility_focus: checks if the student is eligible to complete a
+    - check_eligibility_program and check_eligibility_focus: checks if the student is eligible to complete a
        computer science major/specialist/focus program based on their academic history.
     - get_requirements: return the student’s missing requirements needed to complete a program/focus.
     - get_FCE_count: calculates the total number of FCEs obtained by the student.
