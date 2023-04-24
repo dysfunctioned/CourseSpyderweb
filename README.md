@@ -47,8 +47,6 @@ The Program class creates links between the course code and the Course object by
 the course code is the key and the Course object is the corresponding value. Additionally, the Program class contains 
 an instance attribute of the Student object type to record the students enrolled in the program. The main
 methods in the Program class are responsible for constructing the directed graph with the provided information
-
-
 by initializing the vertices representing the courses, and the edges representing the links between courses and their
 prerequisites if applicable. Then, specific information pertaining to each student is updated and maintained through
 the addcourseinfo and createstudentmapping functions. We have also implemented multiple algorithms using
