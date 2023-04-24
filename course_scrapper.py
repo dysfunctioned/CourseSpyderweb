@@ -162,10 +162,10 @@ class CalendarSpider(scrapy.Spider):
 
 if __name__ == '__main__':
     """Uncomment to Start Crawler to Scrap Data and create a csv file with scrapped course data"""
-    process = CrawlerProcess(settings={
-        "FEEDS": {
-            "items.json": {"format": "json"},
-        },
-    })
-    process.crawl(CalendarSpider)
-    process.start()
+#     process = CrawlerProcess(settings={
+#         "FEEDS": {
+#             "items.json": {"format": "json"},
+#         },
+#     })
+#     process.crawl(CalendarSpider)
+#     process.start()
