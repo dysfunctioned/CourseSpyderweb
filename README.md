@@ -76,7 +76,7 @@ Visualizegraph function.
 
 ## Program Instructions
 
-1. (Optional) In the course_scrapper module, uncomment the codes in main body to start scrapping process. It
+1. (Optional) In the course_scrapper module, uncomment the lines in main body to start scrapping process. It
     would scrap the data from the webpage and create a dataset named ”CourseData.csv”. However, we already
     included that dataset in the project.
 2. The main block of main.py includes the function call run_example(), which builds a directed graph using
