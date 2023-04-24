@@ -49,7 +49,7 @@ an instance attribute of the Student object type to record the students enrolled
 methods in the Program class are responsible for constructing the directed graph with the provided information
 by initializing the vertices representing the courses, and the edges representing the links between courses and their
 prerequisites if applicable. Then, specific information pertaining to each student is updated and maintained through
-the addcourseinfo and createstudentmapping functions. We have also implemented multiple algorithms using
+the add_course_info and create_student_mapping functions. We have also implemented multiple algorithms using
 extensive filtering to check whether a student is eligible to take a certain program or focus offered by the department
 of Computer Science.
 
@@ -85,18 +85,18 @@ Visualizegraph function.
     prerequisites and the red arrows represent unfulfilled prerequisites.
     Note: please fullscreen the Matplotlib windows to accurately view each node.
 3. For further testing, create your own student object and add courses to academichistory using the following functions:
-    - checkeligibilitycourse: checks if the student is eligible to enroll in an input course based on their academic
+    - check_eligibility_course: checks if the student is eligible to enroll in an input course based on their academic
    history.
-    - addcourseinfo: adds a Record object to the student’s academic record. Raises a ValueError if the input course code
+    - add_course_info: adds a Record object to the student’s academic record. Raises a ValueError if the input course code
    is not in the dataset.
 
     Then, call run_example() using this student object.
 
 4. In addition, we have provided a few helper functions which you may find useful:
-    - checkeligibilityprogramandcheckeligibilityfocus: checks if the student is eligible to complete a
+    - check_eligibility_programand and check_eligibility_focus: checks if the student is eligible to complete a
        computer science major/specialist/focus program based on their academic history.
-    - getrequirements: return the student’s missing requirements needed to complete a program/focus.
-    - getFCEcount: calculates the total number of FCEs obtained by the student.
+    - get_requirements: return the student’s missing requirements needed to complete a program/focus.
+    - get_FCE_count: calculates the total number of FCEs obtained by the student.
 
 
 ## References
