@@ -10,8 +10,8 @@
     This file is Copyright(c) 2023 Mark Henein, Ege Sayin, Kelly Wong, and Joshiah Joseph
 """
 from dataclasses import dataclass
-import CoreClasses as cc
-import CourseScrapper
+import core_classes as cc
+import course_scrapper
 import networkx as nx
 import matplotlib.pyplot as plt
 
