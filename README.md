@@ -101,8 +101,6 @@ Visualizegraph function.
 
 ## References
 
-“Computer Science Academic Calendar.” UofT Faculty of Arts and Science Academic Calendar,
-https://artsci.calendar.utoronto.ca/section/Computer-Science.
-“Digraph-Directed Graphs with Self Loops.” NetworkX 3.0 Documentation,
-https://networkx.org/documentation/stable/reference/classes/digraph.html.
+“Computer Science Academic Calendar.” UofT Faculty of Arts and Science Academic Calendar, https://artsci.calendar.utoronto.ca/section/Computer-Science.
+“Digraph-Directed Graphs with Self Loops.” NetworkX 3.0 Documentation, https://networkx.org/documentation/stable/reference/classes/digraph.html.
 “Scrapy 2.8 Documentation.” Scrapy, 2 Feb. 2023, https://docs.scrapy.org/en/latest/.
