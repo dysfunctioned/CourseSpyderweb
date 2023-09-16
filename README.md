@@ -1,7 +1,5 @@
 # CSC111 Project Report: CourseSpyderweb
 
-## Mark Henein, Ege Sayin, Kelly Wong, Joshiah Joseph
-
 ## Introduction
 
 Our research question asks, ”How can we visualize relations between courses from the UofT Faculty of
