@@ -95,12 +95,3 @@ Visualizegraph function.
        computer science major/specialist/focus program based on their academic history.
     - get_requirements: return the student’s missing requirements needed to complete a program/focus.
     - get_FCE_count: calculates the total number of FCEs obtained by the student.
-
-
-## References
-
-“Computer Science Academic Calendar.” UofT Faculty of Arts and Science Academic Calendar, https://artsci.calendar.utoronto.ca/section/Computer-Science.
-
-“Digraph-Directed Graphs with Self Loops.” NetworkX 3.0 Documentation, https://networkx.org/documentation/stable/reference/classes/digraph.html.
-
-“Scrapy 2.8 Documentation.” Scrapy, 2 Feb. 2023, https://docs.scrapy.org/en/latest/.
